@@ -1,0 +1,18 @@
+.wrapper{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-auto-rows: minmax(100px, auto);
+  justify-items: stretch;
+}
+
+.wrapper > div{
+  padding: 1em;
+}
+
+.box1{
+  text-align: center;
+}
+
+.box2{
+  text-align: center;
+}
