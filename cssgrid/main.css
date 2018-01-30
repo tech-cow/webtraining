@@ -1,1 +1,46 @@
 
+body{
+  background: #eee;
+}
+
+/* 因为Block整体的宽度被设置成了960，如果不设置margin左右的宽度
+那么这个block的位置就偏左，所以这里使用margin 的auto功能，这个block就自动居中了 */
+.wrapper{
+  background: #fff;
+  max-width: 960px;
+  padding: 20px;
+  margin: 15px auto;
+}
+
+.wrapper:after{
+
+}
+
+img{
+  float: left;
+  margin: 10px;
+}
+
+.blue{
+  background: blue;
+  margin-left: 165px;
+  float: left;
+}
+
+.red{
+  background: red;
+  margin-left: 165px;
+  float: left;
+}
+
+.green{
+  background: green;
+  margin-left: 165px;
+  float: left;
+
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+}
