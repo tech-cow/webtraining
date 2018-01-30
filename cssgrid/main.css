@@ -12,8 +12,25 @@ body{
   margin: 15px auto;
 }
 
+/* after这里用来填补wrapper剩余的空间，不然wrapper会只显示上半部分 */
 .wrapper:after{
+    content: "";
+    display: block;
+    clear: both;
+}
 
+.colorwrapper{
+  background: #fff;
+  max-width: 320px;
+  padding: 20px;
+  margin: 15px auto;
+}
+
+/* after这里用来填补wrapper剩余的空间，不然wrapper会只显示上半部分 */
+.colorwrapper:after{
+    content: "";
+    display: block;
+    clear: both;
 }
 
 img{
@@ -41,6 +58,22 @@ img{
 }
 
 .box{
-    height: 100px;
-    width: 100px;
+  float: left;
+  width:29%;
+  height: 92.8px;
+  margin: 2%;
+}
+
+.service h2, .service p{
+    color: #999;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.service{
+  float: left;
+  background: #eee;
+  width:29%;
+  margin: 1%;
+  padding: 1%;
 }
